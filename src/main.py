@@ -43,7 +43,7 @@ if __name__ == "__main__":
         try:
             op = 0
             while op not in (1,2):
-                op = int(input("qual carro quer operar? [1-2]: "))
+                op = int(input("qual carro voce quer operar? [1-2]: "))
             if op == 1:
                 operar_carro(carro1)
             else:
